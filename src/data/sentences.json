@@ -1,0 +1,36 @@
+{
+  "base": [
+    { "words": ["هَذَا", "أَبٌ"], "id": "Ini ayah" },
+    { "words": ["هَذِهِ", "أُمٌّ"], "id": "Ini ibu" },
+    { "words": ["هَذَا", "كِتَابٌ"], "id": "Ini buku" },
+    { "words": ["هَذَا", "قَلَمٌ"], "id": "Ini pena" },
+    { "words": ["هَذِهِ", "مَدْرَسَةٌ"], "id": "Ini sekolah" },
+    { "words": ["هَذَا", "مَسْجِدٌ"], "id": "Ini masjid" },
+    { "words": ["هَذِهِ", "حَقِيبَةٌ"], "id": "Ini tas" },
+    { "words": ["أَنَا", "طَالِبٌ"], "id": "Saya siswa" },
+    { "words": ["هُوَ", "مُعَلِّمٌ"], "id": "Dia guru" },
+    { "words": ["أَبِي", "مُعَلِّمٌ"], "id": "Ayahku guru" },
+    { "words": ["هَذِهِ", "جَدَّةٌ"], "id": "Ini nenek" },
+    { "words": ["هَذَا", "بَابٌ"], "id": "Ini pintu" },
+    { "words": ["هَذِهِ", "قِطَّةٌ"], "id": "Ini kucing" },
+    { "words": ["هَذَا", "كَلْبٌ"], "id": "Ini anjing" },
+    { "words": ["هَذَا", "بَيْتٌ"], "id": "Ini rumah" },
+    { "words": ["هَذِهِ", "سَيَّارَةٌ"], "id": "Ini mobil" },
+    { "words": ["هَذِهِ", "عَيْنٌ"], "id": "Ini mata" },
+    { "words": ["هَذَا", "أَنْفٌ"], "id": "Ini hidung" },
+    { "words": ["هَذِهِ", "شَجَرَةٌ"], "id": "Ini pohon" },
+    { "words": ["هَذَا", "أَسَدٌ"], "id": "Ini singa" },
+    { "words": ["هَذَا", "كِتَابٌ", "جَدِيدٌ"], "id": "Ini buku baru" },
+    { "words": ["هَذِهِ", "مَدْرَسَةٌ", "كَبِيرَةٌ"], "id": "Ini sekolah besar" }
+  ],
+  "explanations": {
+    "هَذَا": "هَذَا = kata tunjuk “ini” untuk kata benda Mudzakkar (laki-laki)",
+    "هَذِهِ": "هَذِهِ = kata tunjuk “ini” untuk kata benda Muannats (perempuan)",
+    "أَنَا": "أَنَا = kata ganti “saya”",
+    "هُوَ": "هُوَ = kata ganti “dia (laki-laki)”",
+    "أَبِي": "أَبِي = “ayahku”",
+    "ذَلِكَ": "ذَلِكَ = kata tunjuk “itu” untuk kata benda Mudzakkar (laki-laki)",
+    "تِلْكَ": "تِلْكَ = kata tunjuk “itu” untuk kata benda Muannats (perempuan)",
+    "هَلْ": "هَلْ = kata tanya “apakah”"
+  }
+}
