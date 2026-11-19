@@ -2,5 +2,5 @@
   "counts": [10, 25, 50, 100],
   "defaultCount": 25,
   "timers": { "mudah": 0, "sedang": 20, "sulit": 12 },
-  "types": ["arabic-to-meaning", "meaning-to-arabic", "listening"]
+  "types": ["arabic-to-meaning", "meaning-to-arabic"]
 }

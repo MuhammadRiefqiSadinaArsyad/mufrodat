@@ -201,7 +201,7 @@ export default function DashboardPage() {
           <div>
             <span className="eyebrow">Latihan</span>
             <h2>Asah pemahamanmu</h2>
-            <p>Empat cara berbeda untuk menguji kosakata yang sudah dipelajari.</p>
+            <p>Enam cara berbeda untuk menguji kosakata dan kaidah yang sudah dipelajari.</p>
           </div>
           <Link href="/latihan" className="lnk">Semua latihan <Icon name="arrowRight" /></Link>
         </div>
@@ -229,6 +229,18 @@ export default function DashboardPage() {
             <strong>Cocokkan cepat</strong>
             <small>Tarik garis ingatan antara kata dan makna.</small>
             <span className="lnk">Mulai mencocokkan <Icon name="arrowRight" /></span>
+          </Link>
+          <Link href="/latihan/kaidah" className="lat-card">
+            <span className="lat-icon"><Icon name="book" /></span>
+            <strong>Kaidah dasar</strong>
+            <small>Kenali isim, fi‘il, harf, dan susunan kalimat.</small>
+            <span className="lnk">Mulai kaidah <Icon name="arrowRight" /></span>
+          </Link>
+          <Link href="/latihan/tarjamah" className="lat-card">
+            <span className="lat-icon"><Icon name="eye" /></span>
+            <strong>Terjemah kalimat</strong>
+            <small>Pilih arti kalimat Arab yang paling tepat.</small>
+            <span className="lnk">Mulai menerjemah <Icon name="arrowRight" /></span>
           </Link>
         </div>
       </section>

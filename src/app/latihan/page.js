@@ -40,6 +40,22 @@ const MODES = [
     desc: 'Pilih kata Arab lalu pasangkan dengan arti yang tepat. Lima pasangan, tanpa batas waktu.',
     tag: '5 pasangan',
     tone: 'd'
+  },
+  {
+    href: '/latihan/kaidah',
+    icon: 'book',
+    title: 'Kaidah dasar',
+    desc: 'Bedakan isim, fi‘il, dan harf, lalu kenali jumlah ismiyyah, fi‘liyyah, serta bentuk kata.',
+    tag: '10 soal',
+    tone: 'b'
+  },
+  {
+    href: '/latihan/tarjamah',
+    icon: 'eye',
+    title: 'Terjemah kalimat',
+    desc: 'Baca kalimat Arab berharakat lalu pilih terjemahan Indonesianya yang tepat.',
+    tag: '10 kalimat',
+    tone: 'a'
   }
 ];
 
@@ -93,7 +109,7 @@ export default function LatihanPage() {
           <ol className="steps">
             <li><span>1</span><div><strong>Baca mufradat</strong><small>Kenali kata, arti, dan cara bacanya di menu Mufradat.</small></div></li>
             <li><span>2</span><div><strong>Ulas dengan kartu</strong><small>Tandai “masih ingat” atau “lupa”. Jadwal ulangan diatur otomatis.</small></div></li>
-            <li><span>3</span><div><strong>Uji lewat permainan</strong><small>Kuis, susun kalimat, memori, dan mencocokkan mengunci ingatanmu.</small></div></li>
+            <li><span>3</span><div><strong>Uji lewat permainan</strong><small>Kuis, susun kalimat, kaidah, terjemah, memori, dan mencocokkan mengunci ingatanmu.</small></div></li>
           </ol>
         </section>
         <section className="card mini-guide">

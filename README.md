@@ -24,6 +24,8 @@ npm start       # jalankan hasil build
 | `/latihan/kalimat`    | Susun kalimat Arab                     |
 | `/latihan/memory`     | Permainan kartu memori                 |
 | `/latihan/cocokkan`   | Cocokkan kata dan arti                 |
+| `/latihan/kaidah`     | Kaidah dasar: isim, fi‘il, harf, susunan kalimat |
+| `/latihan/tarjamah`   | Terjemah kalimat Arab ke Indonesia     |
 | `/ulasan`             | Ulasan harian dengan pengulangan berjarak |
 | `/panduan`            | Panduan, pengaturan, unggah foto latar, reset progres |
 
@@ -32,6 +34,7 @@ npm start       # jalankan hasil build
 - `src/data/vocabulary.js` — kosakata dan tema.
 - `src/data/sentences.json` — soal susun kalimat.
 - `src/data/quiz.json`, `src/data/themes.js` — pengaturan kuis dan tingkat kesulitan.
+- `src/data/kaidah.js` — soal kaidah dasar.
 
 LocalStorage:
 
@@ -44,5 +47,4 @@ LocalStorage:
 
 - Login hanya gerbang tampilan; tidak ada verifikasi identitas.
 - Progres tidak tersinkron antarperangkat.
-- Text-to-Speech bergantung pada suara Arab yang terpasang di perangkat.
 - Foto latar disimpan sebagai data URL yang sudah dikompres; kuota LocalStorage terbatas.

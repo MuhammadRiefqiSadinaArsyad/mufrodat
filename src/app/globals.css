@@ -784,6 +784,7 @@ p { line-height: 1.65; }
 .quiz-meta { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
 .quiz-prompt { text-align: center; padding: 26px 10px 22px; }
 .quiz-prompt.arabic span { font-family: var(--font-ar); font-size: clamp(35px, 6vw, 50px); line-height: 1.5; }
+.quiz-prompt.arabic.phrase span { font-size: clamp(24px, 5vw, 38px); line-height: 1.7; }
 .quiz-prompt.latin span { font-size: clamp(20px, 3vw, 27px); font-weight: 800; letter-spacing: -0.02em; }
 .quiz-options { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .quiz-option {
@@ -818,8 +819,10 @@ p { line-height: 1.65; }
 .quiz-feedback > svg { width: 17px; height: 17px; flex: none; color: var(--green); margin-top: 1px; }
 .quiz-feedback.bad > svg { color: var(--gold-deep); }
 .quiz-feedback strong { display: block; font-size: 11.5px; }
+.quiz-feedback small { display: block; margin-top: 2px; font-size: 10px; color: var(--ink-soft); }
 .quiz-feedback p { font-size: 10.5px; color: var(--muted); margin-top: 2px; }
 .quiz-feedback .lnk { margin-top: 5px; font-size: 10px; }
+.quiz-next { margin-top: 12px; }
 
 /* ==========================================================================
    Result
